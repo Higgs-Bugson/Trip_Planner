@@ -9,6 +9,37 @@
   }
 
   #map {
+    flex-grow: 2;
     height: 100vh;
     width: 100vw;
+  }
+
+  nav{
+    display:block;
+    height:50px;
+    background-color: coral
+  }
+  #mapWrapper{
+    display:flex;
+    flex-direction: row;
+
+  }
+  #rotate{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+  }
+  .activity{
+    flex-grow: 1;
+    height:50px;
+    width:50px;
+    background-color: aqua
+  }
+
+  .itinerary{
+    flex-grow: 1;
+    height:50px;
+   width:50px;
+    background-color: rgb(255, 0, 170)
   }
